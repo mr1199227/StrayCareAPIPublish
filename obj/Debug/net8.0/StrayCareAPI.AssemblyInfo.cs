@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StrayCareAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0eca1fc6df093b9a845e2e0805596fbb1d8dfb36")]
 [assembly: System.Reflection.AssemblyProductAttribute("StrayCareAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StrayCareAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

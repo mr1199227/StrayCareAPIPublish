@@ -17,8 +17,8 @@ namespace StrayCareAPI.Services
         {
             _emailSettings = emailSettings.Value;
             _logger = logger;
-            _templatePath = Path.Combine(Directory.GetCurrentDirectory(), "Templates");
-        }
+            _templatePath = Path.Combine(AppContext.BaseDirectory, "Templates");       
+     }
 
         public async Task SendOtpAsync(string email, string otpCode)
         {
@@ -61,12 +61,14 @@ namespace StrayCareAPI.Services
         private async Task<string> GetTemplateAsync(string templateName)
         {
             var filePath = Path.Combine(_templatePath, templateName);
-            if (!File.Exists(filePath))
-            {
-                throw new FileNotFoundException($"Email template not found: {templateName}");
-            }
 
-            return await File.ReadAllTextAsync(filePath);
+                if (!File.Exists(filePath))
+                {
+                     _logger.LogError("Email template not found at {Path}", filePath);
+                     throw new FileNotFoundException($"Email template not found: {filePath}");
+                }
+
+                return await File.ReadAllTextAsync(filePath);
         }
 
         private async Task SendEmailAsync(string toEmail, string subject, string htmlMessage)
