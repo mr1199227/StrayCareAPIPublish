@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/mr/Documents/Test/StrayCareAPI-master/StrayCareAPI/wwwroot/uploads/animals/06a60410-eb1d-47db-a308-2c7a7af1c572.jpg",
+      "PackagePath": "staticwebassets/uploads/animals/06a60410-eb1d-47db-a308-2c7a7af1c572.jpg"
+    },
+    {
+      "Id": "/Users/mr/Documents/Test/StrayCareAPI-master/StrayCareAPI/wwwroot/uploads/animals/38098c48-bde0-472e-b061-bff2df386a44.jpg",
+      "PackagePath": "staticwebassets/uploads/animals/38098c48-bde0-472e-b061-bff2df386a44.jpg"
+    },
+    {
+      "Id": "/Users/mr/Documents/Test/StrayCareAPI-master/StrayCareAPI/wwwroot/uploads/animals/f7b31ca2-ef24-49c8-bd6b-613fba436080.jpg",
+      "PackagePath": "staticwebassets/uploads/animals/f7b31ca2-ef24-49c8-bd6b-613fba436080.jpg"
+    },
+    {
+      "Id": "/Users/mr/Documents/Test/StrayCareAPI-master/StrayCareAPI/wwwroot/uploads/animals/fec9b540-92f1-4258-85b9-f6f508c16ec7.jpg",
+      "PackagePath": "staticwebassets/uploads/animals/fec9b540-92f1-4258-85b9-f6f508c16ec7.jpg"
+    },
+    {
+      "Id": "/Users/mr/Documents/Test/StrayCareAPI-master/StrayCareAPI/wwwroot/uploads/feedings/70b8413d-73db-4fc0-a89b-cc1ddfcab6b7.jpg",
+      "PackagePath": "staticwebassets/uploads/feedings/70b8413d-73db-4fc0-a89b-cc1ddfcab6b7.jpg"
+    },
+    {
+      "Id": "/Users/mr/Documents/Test/StrayCareAPI-master/StrayCareAPI/wwwroot/uploads/sightings/0de23583-221a-4663-8a0c-b5ee63e7d2b3.jpg",
+      "PackagePath": "staticwebassets/uploads/sightings/0de23583-221a-4663-8a0c-b5ee63e7d2b3.jpg"
+    },
+    {
+      "Id": "/Users/mr/Documents/Test/StrayCareAPI-master/StrayCareAPI/wwwroot/uploads/sightings/30ddec17-6a85-4ad0-836b-0a048be8cbaf.jpg",
+      "PackagePath": "staticwebassets/uploads/sightings/30ddec17-6a85-4ad0-836b-0a048be8cbaf.jpg"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.StrayCareAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.StrayCareAPI.props",
+      "PackagePath": "build\\StrayCareAPI.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.StrayCareAPI.props",
+      "PackagePath": "buildMultiTargeting\\StrayCareAPI.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.StrayCareAPI.props",
+      "PackagePath": "buildTransitive\\StrayCareAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
